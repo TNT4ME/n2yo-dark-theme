@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght,ROND@100..900,100&display=swap');
+
+:root {
+  --bg: #002E3D;
+  --txt: #eee;
+  
+  font-size: 20px;
+  --s1: 1rem;
+}
+
+body {
+  width: 100%;
+  
+  background: var(--bg);
+  color: var(--txt);
+ 
+  font-family: "Doto", sans-serif;
+  font-weight: 400;
+}
+
+#article span {
+  font-size: var(--s1);
+}
